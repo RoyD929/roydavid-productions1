@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roy David Productions</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <video autoplay muted loop id="hero-video">
+      <source src="reel-background.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay-text">
+      <h1>Welcome to Roy David Productions</h1>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#reel">Reel</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#bts">Behind the Scenes</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf" download>Resume</a></li>
+    </ul>
+  </nav>
+
+  <section id="reel">
+    <h2>Featured Reel</h2>
+    <video controls>
+      <source src="featured-reel.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project Title 1</h3>
+        <p>Description of the first project.</p>
+        <video controls><source src="project1.mp4" type="video/mp4" /></video>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 2</h3>
+        <p>Description of the second project.</p>
+        <video controls><source src="project2.mp4" type="video/mp4" /></video>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 3</h3>
+        <p>Description of the third project.</p>
+        <video controls><source src="project3.mp4" type="video/mp4" /></video>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 4</h3>
+        <p>Description of the fourth project.</p>
+        <video controls><source src="project4.mp4" type="video/mp4" /></video>
+      </div>
+      <div class="project-card">
+        <h3>Project Title 5</h3>
+        <p>Description of the fifth project.</p>
+        <video controls><source src="project5.mp4" type="video/mp4" /></video>
+      </div>
+    </div>
+  </section>
+
+  <section id="bts">
+    <h2>Behind the Scenes</h2>
+    <p>Coming soon: Stills, on-set moments, and more...</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Roy David is a passionate filmmaker blending cinematic storytelling with modern VFX and bold narratives. With a background in editing, direction, and production, Roy brings stories to life with style and intensity.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: contact@roydavidproductions.com</p>
+    <p>Socials: @roydavidfilms</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Roy David Productions</p>
+  </footer>
+</body>
+</html>
